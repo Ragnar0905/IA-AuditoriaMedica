@@ -2,7 +2,7 @@ from src.manager import AnalysisManager
 from flask import Flask, request, jsonify
 import os
 
-os.environ["CUDA_VISIBLE_DEVICES"] = "0"
+# os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 app = Flask(__name__)
 
 # Dynamics data from the frontend
